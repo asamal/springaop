@@ -9,11 +9,12 @@ public class BeanB1 implements BeanB {
     private final BeanC beanC;
 
     public BeanB1(BeanC beanC) {
+        System.out.println("C >> B1");
         this.beanC = beanC;
     }
 
     @Override
-    @Surrounded
+//    @Surrounded
     public void run() {
         System.out.print("B1 -> ");
         beanC.run();

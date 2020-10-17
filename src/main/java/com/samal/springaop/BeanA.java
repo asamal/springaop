@@ -9,7 +9,7 @@ import java.util.Map;
 public class BeanA {
     private Map<Integer, BeanBSupplier> map = new HashMap<>();
 
-    @Surrounded
+//    @Surrounded
     public void run(int index) {
         System.out.print("A -> ");
         map.get(index).get().run();

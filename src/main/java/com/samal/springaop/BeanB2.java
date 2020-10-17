@@ -7,12 +7,13 @@ public class BeanB2 implements BeanB {
     private final BeanC beanC;
 
     public BeanB2(BeanC beanC) {
+        System.out.println("C >> B2");
         this.beanC = beanC;
     }
 
 
     @Override
-    @Surrounded
+//    @Surrounded
     public void run() {
         System.out.print("B2 -> ");
         beanC.run();
