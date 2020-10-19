@@ -2,7 +2,7 @@ package com.samal.springaop;
 
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class BeanB1Supplier implements BeanBSupplier {
     private final BeanB1 beanB1;
 

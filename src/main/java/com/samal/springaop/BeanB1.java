@@ -14,7 +14,7 @@ public class BeanB1 implements BeanB {
     }
 
     @Override
-//    @Surrounded
+    @Surrounded
     public void run() {
         System.out.print("B1 -> ");
         beanC.run();
